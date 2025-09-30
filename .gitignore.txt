@@ -1,5 +1,20 @@
+ # Python cache files
 __pycache__/
 *.pyc
-*.db
-*.sqlite3
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+
+# IDE settings
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MySQL dumps
+*.sql
